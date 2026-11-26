@@ -1,0 +1,10 @@
+@"
+*.tsbuildinfo
+folder/project-id
+untouched.zip
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+"@ | Add-Content .gitignore
